@@ -326,7 +326,7 @@ class DynmapMultiserver {
 
 if (!String.prototype.startsWith) {
     String.prototype.startsWith = function(searchString) {
-        return (haystack.lastIndexOf(searchString, 0) === 0);
+        return (this.lastIndexOf(searchString, 0) === 0);
     };
 }
 
