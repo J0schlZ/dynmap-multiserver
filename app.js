@@ -9,9 +9,8 @@ const MimeTypes = require('mime-types');
 const version = '1.0.0-SNAPSHOT';
 
 const config = {
-    checkInterval   : 10, // 1 Sek
-    crossOrigin     : false,
-    configServer    : 'lobby',
+    checkInterval   : 1,
+    configServer    : 'lobby', // Which server should we use to retrieve configuration?
     mapServer : {
         'lobby' : {
             url : 'https://map.craft-together.de/lobby',
